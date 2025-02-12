@@ -16,6 +16,12 @@
     left:6vw;
     animation: fadeIn 3s;
 }
+@media (max-width:400px){
+    .header{
+      background-size:cover;
+      margin:auto;
+    }
+  }
 .header-contents h2{
     font-weight: 500;
     color:white;
