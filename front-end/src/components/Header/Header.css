@@ -16,12 +16,6 @@
     left:6vw;
     animation: fadeIn 3s;
 }
-@media (max-width:400px){
-    .header{
-      background-size:cover;
-      margin:auto;
-    }
-  }
 .header-contents h2{
     font-weight: 500;
     color:white;
@@ -40,6 +34,15 @@
     font-size: max(1vw,13px);
     border-radius:50px;
 }
+@media (max-width:400px){
+    .header{
+      background-size:cover;
+      margin:auto;
+    }
+    .header-contents h2{
+        font-size:18px;
+    }
+  }
 @media (max-width:1050px){
     .header-contents{
         max-width:45%;
